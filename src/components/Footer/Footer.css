@@ -1,0 +1,48 @@
+.footer {
+    background-color: #f8f8f7;
+    padding: 40px 0;
+    color: #333;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      width: 100%;
+    }
+  }
+  

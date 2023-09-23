@@ -1,0 +1,32 @@
+.home {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    position: relative;
+    height: 500px;
+    background-image: url('/public/marketBanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 2rem;
+    text-align: center;
+}
+  
+.section {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.main-text {
+    color: #012A4A;
+}
